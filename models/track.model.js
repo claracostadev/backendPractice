@@ -19,4 +19,4 @@ const TrackSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model("tracks", TrackSchema);
+module.exports = mongoose.model("music", TrackSchema);

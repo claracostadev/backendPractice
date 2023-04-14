@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const db = () => {
   try {
     mongoose.connect(
-      "mongodb+srv://claracostadev:SL7iykYMomeYbPco@cluster0.kriffua.mongodb.net/?retryWrites=true&w=majority"
+      "mongodb+srv://claracostadev:SL7iykYMomeYbPco@cluster0.kriffua.mongodb.net/test"
     );
     console.log("Conectado con mongodb atlas");
   } catch (error) {
